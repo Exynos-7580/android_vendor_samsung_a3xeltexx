@@ -21,6 +21,12 @@ LOCAL_PATH := vendor/samsung/a3xeltexx
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/firmware/bcm43438A1_V0051.0217.hcd:system/vendor/firmware/bcm43438A1_V0051.0217.hcd \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
+    $(LOCAL_PATH)/proprietary/etc/bluetooth/iop_device_list.conf:system/etc/bluetooth/iop_device_list.conf \
+    $(LOCAL_PATH)/proprietary/etc/bluetooth/av_performance.conf:system/etc/bluetooth/av_performance.conf \
+    $(LOCAL_PATH)/proprietary/etc/bluetooth/iop_bt.db:system/etc/bluetooth/iop_bt.db \
+    $(LOCAL_PATH)/proprietary/etc/bluetooth/bt_did.conf:system/etc/bluetooth/bt_did.conf \
+    $(LOCAL_PATH)/proprietary/etc/bluetooth/bt_stack.conf:system/etc/bluetooth/bt_stack.conf \
     $(LOCAL_PATH)/proprietary/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
     $(LOCAL_PATH)/proprietary/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \
     $(LOCAL_PATH)/proprietary/lib/hw/camera.universal7580.so:system/lib/hw/camera.universal7580.so \
@@ -30,6 +36,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/firmware/mfc_fw.bin:system/vendor/firmware/mfc_fw.bin \
     $(LOCAL_PATH)/proprietary/vendor/firmware/fimc_is_fd.bin:system/vendor/firmware/fimc_is_fd.bin \
     $(LOCAL_PATH)/proprietary/vendor/firmware/fimc_is_fw2_3l2.bin:system/vendor/firmware/fimc_is_fw2_3l2.bin \
+    $(LOCAL_PATH)/proprietary/vendor/firmware/ram_patch.fw:system/vendor/firmware/ram_patch.fw \
     $(LOCAL_PATH)/proprietary/lib/libexynosscaler.so:system/lib/libexynosscaler.so \
     $(LOCAL_PATH)/proprietary/lib/libexynosgscaler.so:system/lib/libexynosgscaler.so \
     $(LOCAL_PATH)/proprietary/lib/libcsc.so:system/lib/libcsc.so \
