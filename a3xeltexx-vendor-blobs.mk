@@ -86,11 +86,11 @@ PRODUCT_COPY_FILES += \
 ##########################
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/proprietary/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
+    $(LOCAL_PATH)/proprietary/etc/wifi/bcmdhd_apsta.bin:system/vendor/firmware/bcmdhd_apsta.bin \
     $(LOCAL_PATH)/proprietary/etc/wifi/bcmdhd_mfg.bin:system/etc/wifi/bcmdhd_mfg.bin \
-    $(LOCAL_PATH)/proprietary/etc/wifi/bcmdhd_sta.bin:system/etc/wifi/bcmdhd_sta.bin \
-    $(LOCAL_PATH)/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
-    $(LOCAL_PATH)/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
+    $(LOCAL_PATH)/proprietary/etc/wifi/bcmdhd_sta.bin:system/vendor/firmware/bcmdhd_sta.bin \
+    $(LOCAL_PATH)/proprietary/etc/wifi/nvram_mfg.txt:system/vendor/etc/wifi/nvram_mfg.txt \
+    $(LOCAL_PATH)/proprietary/etc/wifi/nvram_net.txt:system/vendor/etc/wifi/nvram_net.txt \
     $(LOCAL_PATH)/proprietary/vendor/firmware/ram_patch.fw:system/vendor/firmware/ram_patch.fw
 
 ###########################
